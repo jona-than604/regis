@@ -1,0 +1,102 @@
+h1 { 
+color: aqua;
+text-align: center;
+font-size: 40px;
+font-weight: bold;
+font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-shadow: 2px 2px black; 
+} 
+.pas_de_retrait 
+{ 
+list-style-position: inside; 
+font-size:  1.35rem;
+
+} 
+.retrait 
+{ 
+list-style-position: outside;
+font-size:  1.35rem;
+}
+ 
+.cercle 
+{ 
+list-style-type: circle; 
+} 
+.carre 
+{ 
+list-style-type: square; 
+} 
+.rien 
+{ 
+list-style-type: none; 
+} 
+.commence_a_zero 
+{ 
+list-style-type: decimal-leading-zero; 
+} 
+.lettres_minuscules 
+{ 
+list-style-type: lower-alpha; 
+} 
+.chiffres_romains 
+{ 
+list-style-type: upper-roman; 
+} 
+.lettres_grecques 
+{ 
+list-style-type: lower-greek; 
+} 
+h2 
+{ 
+text-indent: 20px; 
+font-family: Arial, Verdana, "Times New Roman", serif; 
+color: aqua;
+font-size: 30px;
+
+} 
+em 
+{ 
+background-color: yellow; 
+} 
+strong 
+{ 
+color: red; 
+}
+ul 
+{ 
+list-style-image: url("dossier.png"); 
+} 
+a 
+{  
+text-decoration: none; 
+ color: aqua;
+    font-weight: bold;
+    font-size: 1.35rem;
+} 
+a:hover 
+{ 
+text-decoration: underline; 
+}
+body{
+   background-image: url("pexels-rafael-guajardo-194140-604684.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif;
+} 
+
+.liste{
+    color: white;
+    font-size: 1.35rem;
+}
+.avec{
+    color: aqua;
+    font-size:  1.35rem;
+    font-weight: bold;
+}
+ol,ul{
+    
+    color: white ;
+    font-size:  1.35rem; 
+}

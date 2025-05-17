@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="codeformulaire.css">
+</head>
+<body>
+    <title>Formulaire2</title>
+     <form method="post"      action="cible_formulaire.php">
+        <h1>Formulaire 2 à remplir</h1>
+         <fieldset>
+            <legend>État civil</legend>
+            <div class="form-container">
+                <div class="form-left">
+                        <label for="matricule">Matricule</label><br/>
+                        <input type="text" id="matricule" name="matricule"  placeholder="00000000"><br/>
+                        <br/>
+                        <label for="Nom">Nom</label><br/>
+                        <input type="text" id="Nom" name="Nom" placeholder="DUNFORD"><br/>
+                        <br/>
+                        <label for="Prenom">Prénom</label><br/>
+                        <input type="text" id="Prenom" name="Prénom" placeholder="Carl">
+                </div>
+                <div class="form-right">
+                        <label for="Sexe">Sexe</label><br/>
+                        <input type="text" id="Sexe" name="Sexe"  placeholder="Maxculin/Féminin"><br/>
+                        <br/>
+                        <label for="DateNaissance">Date de naissance</label><br/>
+                        <input type="text" id="DateNaissance" name="DateNaissance"  placeholder="jj/mm/aaaa                                                                  🗓️"><br/>
+                        <br/>
+                        <label for="Age">Âge</label><br/>
+                        <input type="text" id="Age" name="Age" placeholder="âge en anné
+                        ">
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mes diplômes</legend>
+                <input type="checkbox" name="CEP" id="CEP">
+                <label for="CEP">CEP</label><br>
+                <input type="checkbox" name="BEPC" id="BEPC">
+                <label for="BEPC">BEPC</label><br>
+                <input type="checkbox" name="BAC" id="BAC">
+                <label for="BAC">BAC</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Expertises</legend>
+                <input type="checkbox" name="ExpertiseIT" id="ExpertiseIT">
+                <label for="ExpertiseIT">Expertise en IT</label><br>
+                <input type="checkbox" name="ExpertiseBavardage" id="ExpertiseBavardage">
+                <label for="ExpertiseBavardage">Expertise en bavardage</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Boutons</legend>
+                <input type="submit" value="Envoyer" class="buton">
+                <input type="reset" value="Effacer" class="buton">
+                <button type="button" onclick="history.back(formulaire1.html)" class="buton">Retour</button>
+        </fieldset>
+
+        </form>
+</body>
+</html>
