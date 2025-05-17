@@ -1,0 +1,67 @@
+h1
+{
+text-align: center;
+color: cyan;
+font-size: 50px;
+
+text-shadow: 100px;
+text-shadow: 2px 2px black; 
+}
+h2{
+color: cyan;
+font-size: 30px;
+  
+text-shadow: 2px 2px black; 
+}
+body{
+     background-image: url("pexels-rafael-guajardo-194140-604684.jpg"); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+    font-family: 'Montserrat', sans-serif;
+     background-attachment: fixed;
+     text-shadow: 0.5px 0.5px black; 
+}
+div{
+    color: lavenderblush;;
+    font-size: 20px;
+}
+em{
+    color: cyan;
+    font-weight: bold;
+}
+
+.color{
+    color: lavenderblush;
+    font-size: 20px;
+}
+.buton{
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 8px;
+    text-decoration: none;
+}
+    .container {
+      
+      display: flex;
+      margin: 0;
+    }
+    img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 8px;
+    }
+    blockquote{
+      background-color: transparent;
+      padding: 12px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px white;
+      max-width: 767px;
+    }
+    
